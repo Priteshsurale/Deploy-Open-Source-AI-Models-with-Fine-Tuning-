@@ -43,7 +43,8 @@ Software:
 
  - Speech To Text  
    - Wav2vec
-   - whisper    
+   - [Wav2letter](https://ai.meta.com/tools/wav2letter/) (an end-to-end Automatic Speech Recognition (ASR) system for researchers and developers to transcribe speech.)
+   - [whisper ASR](https://github.com/openai/whisper)    
 
 check out the specific models - [Hugging Face Model](https://huggingface.co/models) 
 
