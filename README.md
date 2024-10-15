@@ -1,4 +1,4 @@
-# Deploying Open-Source AI Models with Fine-Tuning (LoRA & QLoRA) and API Endpoints on Cloud
+# Deploy Open-Source AI Models with Fine-Tuning (LoRA & QLoRA) and API Endpoints on Cloud
 
 ## Table of Contents
 1. [Introduction](#introduction)
