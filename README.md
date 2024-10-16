@@ -27,11 +27,12 @@ Choose a platform based on cost and availability of GPU resources.
       - Llama 3.1 70B INT8: 1x A100 or 2x A40
       - Llama 3.1 70B INT4: 1x A40
 
-Software:
-- **Python 3.7+**
-- **PyTorch**
-- **Transformers** (Hugging Face)
-- **BitsAndBytes** (for QLoRA)
+- Software:
+    - **Python 3.11**
+    - **PyTorch**
+    - **Transformers** (Hugging Face)
+    - **BitsAndBytes** (for QLoRA)
+- [Minimum system requirements](https://github.com/open-webui/open-webui/discussions/736)
 
 ## Open Source Model
  - Chat Completion
@@ -71,3 +72,4 @@ check out the specific models - [Hugging Face Model](https://huggingface.co/mode
 - [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
 - [alignment-handbook](https://github.com/huggingface/alignment-handbook)
 - [Step-by-Step Guide to Building a Speech and Voice AI Assistant Using ASR with Llama 3.1](https://www.e2enetworks.com/blog/step-by-step-guide-to-building-a-speech-and-voice-ai-assistant-using-asr-with-llama-3-1)
+- [open webui](https://docs.openwebui.com/)
