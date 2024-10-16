@@ -1,5 +1,6 @@
 # Deploy Open-Source AI Models with Fine-Tuning (LoRA & QLoRA) and API Endpoints on Cloud
 
+
 ## Introduction
 This document demonstrates how to deploy open-source AI models (e.g., LLaMA, Whisper, Mistral, Gemma) on cloud platforms like Cloudera, and how to create an API endpoint similar to OpenAI's API. The API will accept various types of data (image, audio, text, or combinations) and return processed responses. 
 
@@ -37,10 +38,8 @@ Software:
    - llama3.2
    - mistral
    - gemma
- 
- - vision
+- vision
    - llama 3.2
-
  - Speech To Text  
    - Wav2vec
    - [Wav2letter](https://ai.meta.com/tools/wav2letter/) (an end-to-end Automatic Speech Recognition (ASR) system for researchers and developers to transcribe speech.)
@@ -48,13 +47,23 @@ Software:
 
 check out the specific models - [Hugging Face Model](https://huggingface.co/models) 
 
+
 ## Fine-Tuning the Model
 
-### [Hugging Face- SFT TRl](https://huggingface.co/docs/trl/en/sft_trainer)
-### PEFT (Parameter-Efficient Fine-Tuning)
-### LoRA (Low-Rank Adaptation)
-### QLoRA (Quantized Low-Rank Adaptation)
-### [unsloth](https://github.com/unslothai/unsloth) 
+ - [Hugging Face- SFT TRl](https://huggingface.co/docs/trl/en/sft_trainer)
+ - PEFT (Parameter-Efficient Fine-Tuning)
+ - LoRA (Low-Rank Adaptation)
+ - QLoRA (Quantized Low-Rank Adaptation)
+ - [unsloth](https://github.com/unslothai/unsloth) 
+
+
+## Process 
+
+| Step |  Explanation |
+|:------|:-------------|
+| Speech recognition | Uses speech recognition technology to convert the user's voice into text.|
+| Language model     | Processes the text using OpenSource language model to generate a response.|
+| Text-to-speech     |Uses a text-to-speech model to convert the generated text back into speech.|
 
 
 ## Reference Links
